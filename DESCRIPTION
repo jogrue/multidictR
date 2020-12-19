@@ -1,0 +1,24 @@
+Package: multidictR
+Title: Deals with dictionaries containing multi word terms
+Version: 0.9.0
+Authors@R: 
+    person(given = "Johann",
+           family = "Gründl",
+           role = c("aut", "cre"),
+           email = "mail@johanngruendl.at",
+           comment = c(ORCID = "0000-0001-6497-8188"))
+Description: Quanteda does not allow for more complex multi-word dictionaries
+             that for example include wildcards spanning multiple words. This
+             package provides some functions to deal with such more complex
+             dictionaries. It is used with the populism dictionary in popdictR.
+License: CC0
+Imports:
+  stringr,
+  regexhelpeR,
+  quanteda,
+  dplyr,
+  rlang
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
